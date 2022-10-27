@@ -2,7 +2,7 @@ const amount = document.querySelector('#amount');
 const colorStandard = document.querySelector('#colorStandard')
 const buttonSwitch = document.querySelector('#buttonSwitch');
 const priceFinal = document.querySelector('#priceFinal');
-const amouthFinal = document.querySelector('#amouthSwitch');
+const amountFinal = document.querySelector('#amountFinal');
 const colorSwitch = document.querySelector('#colorSwitch');
 
 
@@ -14,7 +14,7 @@ buttonSwitch.addEventListener('click', () => {
   priceFinal.textContent = "Total: $" + price; 
 
   // Cambio cantidades
-  amoutFinal.textContent = `Cantidad: ${amount.value}`;
+  amountFinal.textContent = `Cantidad: ${amount.value}`;
 
   // Cambio de color
   const colorFinal = colorStandard.value;
