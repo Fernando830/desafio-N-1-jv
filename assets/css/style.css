@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+}
+
+.bg-card {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+}
+
+.bg-button {
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 5px;
+  border-color: aliceblue;
+}
+
+.border-color {
+  border-radius: 50px;
+}
+
+.black-text {
+  font-weight: bold;
+}
+

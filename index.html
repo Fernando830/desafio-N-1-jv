@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío N°1 JS</title>
+    <!-- bootstrap 5.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="d-flex flex-row justify-content-center align-items-center">
+      <!-- tarjeta -->
+      <article class="card bg-card" style="width: 18rem" ;>
+        <div class="card-img-top text-center">
+          <img
+            src="assets/imgs/notebook-principal.png"
+            alt="Notebook negro gamer"
+            class="w-50 h-50"
+          />
+        </div>
+        <div
+          class="card-body d-flex flex-column justify-content-center align-items-center"
+        >
+          <h5>Laptop Gamer AMD</h5>
+          <input
+            class="form-control"
+            id="amount"
+            type="number"
+            placeholder="Cantidad"
+          />
+
+          <select id="colorStandard" class="form-select">
+            <option selected value="white">Color</option>
+            <option value="black">negro</option>
+            <option value="grey">grey</option>
+            <option value="blue">blue</option>
+          </select>
+
+          <p>Precio: $40.000</p>
+
+          <button id="buttonSwitch" class="bg-button">Calcular Total</button>
+        </div>
+      </article>
+      <div>
+        <p id="priceFinal" class="black-text">Total: $0</p>
+        <p id="amoutFinal" class="black-text">Cantidad: 0</p>
+        <div class="d-flex flex-row justify-content-center align-items-center">
+          <p class="black-text">Color:</p>
+          <button
+            id="colorSwitch"
+            class="rounded-circle border border-dark mx-1 p-3"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
